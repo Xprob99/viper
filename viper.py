@@ -41,8 +41,8 @@ print("""\033[93m
 """)
 username = str(input("\033[33m[ViperC2] \033[93mUsername:"))
 password = str(input("\033[33m[ViperC2] \033[93mPassword:"))
-if password == "admin" and username == "admin":
-    print ("Logged in as admin")
+if password == "xprob" and username == "xprob":
+    print ("Logged in as xprob")
     time.sleep(2)
 
 else:
